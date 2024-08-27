@@ -1,5 +1,6 @@
 section{
     height: 700px;
+
 }
 
 
@@ -25,9 +26,9 @@ section{
   }
 
   .destaque {
-    align-items: center;
+
     background-color: rgba(165, 163, 163, 0.9); /* Fundo branco com 70% de transparência */
-    padding: 50px;
+  
   }
 
   .body {
@@ -44,7 +45,7 @@ section{
   
   @keyframes go-back {
     from {
-      transform: translateX(500px);
+      transform: translateX(300px);
     }
     to {
       transform: translateX(0);
@@ -81,4 +82,11 @@ section{
     max-height:500px;
     width: auto;
     height: auto;
+}
+
+
+.child {
+  ... 
+  position: absolute;
+  top: 20%;
 }
