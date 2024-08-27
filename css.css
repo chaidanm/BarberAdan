@@ -1,0 +1,84 @@
+section{
+    height: 700px;
+}
+
+
+
+#lobster-regular {
+    font-family: "Lobster", sans-serif;
+
+    font-style: normal;
+    font-size: clamp(1rem, 3vw, 2rem);
+  }
+
+  #parallax {
+    /* The image used */
+    background-image: url("bg.jpg");
+
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+
+  }
+
+  .destaque {
+    align-items: center;
+    background-color: rgba(165, 163, 163, 0.9); /* Fundo branco com 70% de transparência */
+    padding: 50px;
+  }
+
+  .body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500vh;
+  }
+  
+  .anim {
+
+    animation: go-back 2s;
+  }
+  
+  @keyframes go-back {
+    from {
+      transform: translateX(500px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  } 
+  
+
+  .anim2 {
+
+    animation: go-back 2s;
+  }
+  
+  @keyframes go-back {
+    from {
+      transform: translateX(500px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  } 
+  
+
+  .localizacao {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50;
+
+  }
+
+
+  .tamimg {
+    max-width:700px;
+    max-height:500px;
+    width: auto;
+    height: auto;
+}
