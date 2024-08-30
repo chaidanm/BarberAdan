@@ -1,6 +1,6 @@
 section{
   flex-grow: 1 ;
-  flex-basis: 3700;
+  flex-basis: 200;
 
 }
 
@@ -27,7 +27,8 @@ section{
   }
 
   .destaque {
-
+    flex-grow: 1 ;
+    flex-basis: 200;
     background-color: rgba(165, 163, 163, 0.9); /* Fundo branco com 70% de transparência */
   
   }
